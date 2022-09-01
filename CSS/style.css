@@ -1,0 +1,75 @@
+body {
+    font-family: 'popins', sans-serif;
+}
+
+main {
+    margin-top: 2%;
+}
+
+.imagem-principal {
+    width: 300px;
+    margin: 1% auto;
+}
+
+.legenda-principal h1  {
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.8em;
+    margin-bottom: 2%;
+}
+
+.legenda-principal p  {
+    text-align: center;
+    font-size: 1.2em;
+    margin-bottom: 2%;
+    font-weight: 400;
+}
+
+.circulos{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    width: 100px;
+}
+
+.circulos a{
+    border: 1px solid black ;
+    border-radius: 100%;
+    width: 12px;
+    height: 12px;
+    margin-top: 10%;
+}
+
+#primeiro-circulo, #segundo-circulo, #terceiro-circulo {
+    background-color: #92E3A9;
+    border: 1px solid #92E3A9;
+}
+
+.botao-mudar {
+    text-align: center;
+}
+
+.botao-continue {
+    display: block;
+    margin: 3% 40% 2%;
+    width: 20%;
+    background-color: #92E3A9;
+    font-weight: 500;
+    font-size: 1.1em;
+    border: none;
+    padding: 0.6em;
+    box-shadow: 0px 4px 10px #a1c3fc;
+
+}
+
+.botao-continue a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.pular{
+    color: #92E3A9;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.1em;
+}
