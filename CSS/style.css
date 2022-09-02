@@ -1,27 +1,31 @@
+
 body {
     font-family: 'popins', sans-serif;
 }
 
 main {
-    margin-top: 2%;
+    display: flex; /* adição do display flex para facilitar na responsividade */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
 }
 
 .imagem-principal {
     width: 300px;
-    margin: 1% auto;
 }
 
 .legenda-principal h1  {
     text-align: center;
-    font-weight: 600;
-    font-size: 1.8em;
-    margin-bottom: 2%;
+    font-weight: 700;
+    font-size: 1.6em;
+    margin-bottom: 0.7em;
 }
 
 .legenda-principal p  {
     text-align: center;
     font-size: 1.2em;
-    margin-bottom: 2%;
+    margin-bottom: 1em;
     font-weight: 400;
 }
 
@@ -37,7 +41,7 @@ main {
     border-radius: 100%;
     width: 12px;
     height: 12px;
-    margin-top: 10%;
+    
 }
 
 #primeiro-circulo, #segundo-circulo, #terceiro-circulo {
@@ -51,8 +55,9 @@ main {
 
 .botao-continue {
     display: block;
-    margin: 3% 40% 2%;
-    width: 20%;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    width: 308px;
     background-color: #92E3A9;
     font-weight: 500;
     font-size: 1.1em;
@@ -72,4 +77,10 @@ main {
     text-decoration: none;
     font-weight: 500;
     font-size: 1.1em;
+}
+
+@media screen and (max-width:480px) { /* todas as telas que tenham até 480px */
+    .legenda-principal p  {
+        padding: 1em 2em; /* Paragrafo não cortar em telas pequenas */
+    }
 }
