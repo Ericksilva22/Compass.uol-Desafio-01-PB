@@ -1,5 +1,5 @@
 # compass-front-challenge-onboarding-Desafio 01
-Primeiro desafio Front-End para o programa de bolsas da Compass.uol
+1° desafio Front-End para o programa de bolsas da Compass.uol
 
 O Projeto, utilizando HTML e CSS, apresenta:
 
